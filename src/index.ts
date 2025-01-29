@@ -1,11 +1,11 @@
 "use strict";
 
-import environment from "@/lib/environment.ts";
-import config from "@/lib/config.ts";
-import "@/lib/initialize.ts";
-import server from "@/lib/server.ts";
-import routes from "@/api/routes/index.ts";
-import logger from "@/lib/logger.ts";
+import environment from "@/lib/environment.js";
+import config from "@/lib/config.js";
+import "@/lib/initialize.js";
+import server from "@/lib/server.js";
+import routes from "@/api/routes/index.js";
+import logger from "@/lib/logger.js";
 
 const startupTime = performance.now();
 

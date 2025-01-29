@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "src": "src/index.ts",
+            "src": "dist/index.js",
             "use": "@vercel/node"
         }
     ],
@@ -12,7 +12,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "src/index.ts",
+            "dest": "dist/index.js",
             "headers": {
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS",

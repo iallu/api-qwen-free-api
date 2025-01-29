@@ -1,15 +1,16 @@
 {
     "compilerOptions": {
       "baseUrl": ".",
+      "target": "ES2020",
       "module": "NodeNext",
       "moduleResolution": "NodeNext",
-      "allowImportingTsExtensions": true,
-      "allowSyntheticDefaultImports": true,
-      "noEmit": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "outDir": "./dist",
       "paths": {
         "@/*": ["src/*"]
-      },
-      "outDir": "./dist"
+      }
     },
     "include": ["src/**/*", "libs.d.ts"],
     "exclude": ["node_modules", "dist"]
